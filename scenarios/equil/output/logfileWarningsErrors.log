@@ -1,0 +1,30 @@
+2018-07-16 12:07:51,728  WARN QueueWithBuffer:377 Link 1 too small: enlarge storage capacity from: 1333.3333333333333 Vehicles to: 3599.712023038157 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
+2018-07-16 12:07:51,732  WARN QueueWithBuffer:377 Link 20 too small: enlarge storage capacity from: 1333.3333333333333 Vehicles to: 3599.712023038157 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
+2018-07-16 12:07:51,733  WARN QueueWithBuffer:377 Link 21 too small: enlarge storage capacity from: 1333.3333333333333 Vehicles to: 3599.712023038157 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
+2018-07-16 12:07:51,747  WARN QueueWithBuffer:377 Link 22 too small: enlarge storage capacity from: 4666.666666666667 Vehicles to: 12598.99208063355 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
+2018-07-16 12:07:51,748  WARN QueueWithBuffer:377 Link 23 too small: enlarge storage capacity from: 1333.3333333333333 Vehicles to: 3599.712023038157 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
+2018-07-16 12:07:54,419  WARN QueueWithBuffer:377 Link 1 too small: enlarge storage capacity from: 1333.3333333333333 Vehicles to: 3599.712023038157 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
+2018-07-16 12:07:54,420  WARN QueueWithBuffer:377 Link 20 too small: enlarge storage capacity from: 1333.3333333333333 Vehicles to: 3599.712023038157 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
+2018-07-16 12:07:54,420  WARN QueueWithBuffer:377 Link 21 too small: enlarge storage capacity from: 1333.3333333333333 Vehicles to: 3599.712023038157 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
+2018-07-16 12:07:54,422  WARN QueueWithBuffer:377 Link 22 too small: enlarge storage capacity from: 4666.666666666667 Vehicles to: 12598.99208063355 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
+2018-07-16 12:07:54,422  WARN QueueWithBuffer:377 Link 23 too small: enlarge storage capacity from: 1333.3333333333333 Vehicles to: 3599.712023038157 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
+2018-07-16 12:07:56,309  WARN QueueWithBuffer:377 Link 1 too small: enlarge storage capacity from: 1333.3333333333333 Vehicles to: 3599.712023038157 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
+2018-07-16 12:07:56,309  WARN QueueWithBuffer:380 Additional warnings of this type are suppressed.
+2018-07-16 12:08:07,289 ERROR MatsimRuntimeModifications$1:41 Getting uncaught Exception in Thread main
+java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+	at org.matsim.core.controler.corelisteners.DumpDataAtEndImpl.dumpLanes(DumpDataAtEndImpl.java:199)
+	at org.matsim.core.controler.corelisteners.DumpDataAtEndImpl.notifyShutdown(DumpDataAtEndImpl.java:130)
+	at org.matsim.core.controler.ControlerListenerManagerImpl.fireControlerShutdownEvent(ControlerListenerManagerImpl.java:122)
+	at org.matsim.core.controler.AbstractController$1.shutdown(AbstractController.java:89)
+	at org.matsim.core.controler.MatsimRuntimeModifications.run(MatsimRuntimeModifications.java:66)
+	at org.matsim.core.controler.MatsimRuntimeModifications.run(MatsimRuntimeModifications.java:31)
+	at org.matsim.core.controler.AbstractController.run(AbstractController.java:92)
+	at org.matsim.core.controler.NewControler.run(NewControler.java:75)
+	at org.matsim.core.controler.Controler.run(Controler.java:202)
+	at org.matsim.run.Controler.run(Controler.java:56)
+	at org.matsim.run.Controler.main(Controler.java:60)
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.JAXBException
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	... 11 more
