@@ -27,7 +27,7 @@ import org.matsim.core.gbl.Gbl;
 import org.matsim.core.scenario.ScenarioUtils;
 
 /**
- * @author samark_testBranch_3
+ * @author samark_testBranch_3_finalTest
  *
  */
 public class RunMatsim {
